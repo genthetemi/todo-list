@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        #todos { margin-top: 20px; }
-        .todo { margin-bottom: 10px; }
-    </style>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Todo List</h1>
-    <input id="new-todo" type="text" placeholder="Enter new todo" />
-    <button onclick="addTodo()">Add Todo</button>
-    
-    <div id="todos"></div>
+    <div class="container">
+        <h1>Todo List</h1>
+        <input id="new-todo" type="text" placeholder="Enter new todo" />
+        <button onclick="addTodo()">Add Todo</button>
+
+        <div id="todos"></div>
+    </div>
 
     <!-- Link to the external JS file -->
     <script src="app.js"></script>
